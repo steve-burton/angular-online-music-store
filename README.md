@@ -2,6 +2,18 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
 
+This project requires a firebase database to run.
+The credentials from this database should be placed in a file at: /src/app/api-keys.ts
+The contents of the file should look like this:
+
+export var masterFirebaseConfig = {
+  apiKey: "XXXXX",
+  authDomain: "XXXXX",
+  databaseURL: "XXXXX",
+  storageBucket: "XXXXX",
+  messagingSenderId: "XXXXX"
+};
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
